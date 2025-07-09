@@ -39,3 +39,24 @@ This work was developed through a collaboration between:
 - [University of Cassino and Lazio Meridionale](https://www.unicas.it)
 - [University of Bari "Aldo Moro"](https://www.uniba.it/it)
 - [University of Campania "Luigi Vanvitelli"](https://www.unicampania.it) (coordinator of the **SUP4VUP project** and data provider)
+
+
+## 📝 Citation
+If you find the project codes useful for your research, please consider citing
+
+```
+@InProceedings{PUVClassification,
+  title = {AI in Pediatric Urology: Deep Learning-based Approach supporting Posterior Urethral Valves Diagnosis on VCUG Imaging},
+  author = {Russo, Ciro and Settembre, Gaetano and Gargano, Grazia and de Biase, Maria Stella and De Fazio, Roberta},
+  ISBN = {},
+  url = {},
+  DOI = {},
+  editor = {},
+  booktitle = {Image Analysis and Processing - ICIAP 2025 Workshops},
+  year = {},
+  publisher = {Springer Nature Switzerland},
+  address = {Cham},
+  pages = {},
+  abstract = {Posterior Urethral Valves (PUV) are the leading cause of lower urinary tract obstruction in male infants. Diagnosis relies on Voiding CystoUrethroGraphy (VCUG) and invasive    cystoscopy, which, despite being the gold standard, poses anesthesia and procedural risks, underscoring the need for a non-invasive, imaging-based screening tool. In this study, we investigate whether recent Deep Learning (DL) architectures can identify PUV directly from routine VCUG images, offering a non-invasive alternative. We present the design and implementation of a novel DL-based framework, trained and validated on a real-world multicenter dataset of $403$ VCUG acquisitions, previously annotated by pediatric urologists. In the binary classification task (PUV vs. non-PUV), EfficientNet-B0 achieved the highest overall accuracy of $68.3\%$. To promote clinical interpretability, we integrated Grad-CAM to generate attention maps, verifying that the model was indeed focusing on relevant discriminative features. This enhances the reliability of the system and supports its potential clinical adoption. The results demonstrate the feasibility of automated PUV classification from VCUG using DL, laying a solid groundwork for future development toward non-invasive screening tools in real-world clinical applications.}
+}
+```
