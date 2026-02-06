@@ -27,8 +27,8 @@ Researchers interested in collaboration or data access for institutional researc
 ## 👤 Project Team
 The development of this repository involved contributions from a multidisciplinary team of researchers, including:
 - [**Ciro Russo**](https://www.linkedin.com/in/ciro-russo-phd-b14056100/) - PostDoctoral Researcher, University of Cassino and Lazio Meridionale
-- [**Gaetano Settembre**](https://www.linkedin.com/in/gaetano-settembre/) - PhD Student in Computer Science and Mathematics, University of Bari "Aldo Moro"
-- [**Grazia Gargano**](https://www.linkedin.com/in/grazia-gargano-307124189/) - PhD Student in Computer Science and Mathematics, University of Bari "Aldo Moro"
+- [**Gaetano Settembre**](https://www.linkedin.com/in/gaetano-settembre/) - PhD Student in Computer Science and Mathematics, University of Bari Aldo Moro
+- [**Grazia Gargano**](https://www.linkedin.com/in/grazia-gargano-307124189/) - PhD Student in Computer Science and Mathematics, University of Bari Aldo Moro
 - [**Maria Stella de Biase**](https://www.linkedin.com/in/maria-stella-de-biase-711ba0171/) - Researcher, University of Campania "Luigi Vanvitelli"
 - [**Roberta De Fazio**](https://www.linkedin.com/in/roberta-de-fazio-phd-1836b2226/) - PostDoctoral Fellowship, University of Campania "Luigi Vanvitelli"
 
@@ -45,18 +45,17 @@ This work was developed through a collaboration between:
 If you find the project codes useful for your research, please consider citing
 
 ```
-@InProceedings{PUVClassification,
-  title = {AI in Pediatric Urology: Deep Learning-based Approach supporting Posterior Urethral Valves Diagnosis on VCUG Imaging},
-  author = {Russo, Ciro and Settembre, Gaetano and Gargano, Grazia and de Biase, Maria Stella and De Fazio, Roberta},
-  ISBN = {},
-  url = {},
-  DOI = {},
-  editor = {},
+@InProceedings{PUVClassificationICIAP25,
+  title = {{AI in Pediatric Urology: Deep Learning-based Approach supporting Posterior Urethral Valves Diagnosis on VCUG Imaging}},
+  ISBN = {9783032113818},
+  ISSN = {1611-3349},
+  editor = {Rodotà, Emanuele and Galasso, Fabio and Masi, Iacopo},
+  DOI = {10.1007/978-3-032-11381-8_12},
   booktitle = {Image Analysis and Processing - ICIAP 2025 Workshops},
-  year = {},
   publisher = {Springer Nature Switzerland},
   address = {Cham},
-  pages = {},
-  abstract = {Posterior Urethral Valves (PUV) are the leading cause of lower urinary tract obstruction in male infants. Diagnosis relies on Voiding CystoUrethroGraphy (VCUG) and invasive    cystoscopy, which, despite being the gold standard, poses anesthesia and procedural risks, underscoring the need for a non-invasive, imaging-based screening tool. In this study, we investigate whether recent Deep Learning (DL) architectures can identify PUV directly from routine VCUG images, offering a non-invasive alternative. We present the design and implementation of a novel DL-based framework, trained and validated on a real-world multicenter dataset of $403$ VCUG acquisitions, previously annotated by pediatric urologists. In the binary classification task (PUV vs. non-PUV), EfficientNet-B0 achieved the highest overall accuracy of $68.3\%$. To promote clinical interpretability, we integrated Grad-CAM to generate attention maps, verifying that the model was indeed focusing on relevant discriminative features. This enhances the reliability of the system and supports its potential clinical adoption. The results demonstrate the feasibility of automated PUV classification from VCUG using DL, laying a solid groundwork for future development toward non-invasive screening tools in real-world clinical applications.}
+  author = {Russo,  Ciro and Settembre,  Gaetano and Gargano,  Grazia and {de Biase},  Maria Stella and {De Fazio},  Roberta},
+  year = {2026},
+  pages = {138–149}
 }
 ```
